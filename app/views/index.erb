@@ -1,1 +1,37 @@
-<h1> This is a view </h1>
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>About Me Quiz</title>
+    </head>
+    
+    <body>
+        <h1>How well do you know me? With Ishani</h1>
+        
+        <img src="https://media.giphy.com/media/X9fjbpBeN4pDW/giphy.gif">
+        
+        <form method="POST" action="/results">
+            
+            <h2>Who's my favorite artist?</h2>
+                <input type="radio" name="artist" value="0">Skrillex<br>
+                <input type="radio" name="artist" value="5">Halsey<br>
+                <input type="radio" name="artist" value="10">Kanye West<br>
+                <input type="radio" name="artist" value="15">Ed Sheeran<br>
+            
+            <h2>Where am I from?</h2>
+                <input type="radio" name="home" value="0">Texas<br>
+                <input type="radio" name="home" value="5">New York<br>
+                <input type="radio" name="home" value="10">New Jersey<br>
+            
+            <h2>What is my favorite food?</h2>
+                <input type="radio" name="food" value="0">I don't like food<br>
+                <input type="radio" name="food" value="5">Pizza<br>
+                <input type="radio" name="food" value="5">Ice Cream<br>
+                <input type="radio" name="food" value="10">I love both!<br>
+            
+            <br>
+            <button type="submit">Let's see if we can be friends!</button>
+            
+        </form>
+        
+    </body>
+</html>
